@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  /* меняет поведение элементов в блоке */
+  display: flex;
+  /* выравнивание по центру */
+  align-items: center;
+  /* свойство для настройки отступов между элементами */
+  justify-content: space-evenly;
+  /* внутренние отступы */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+div {
+  padding: 30px 0;
+}
+form {
+  position: relative;
+
+  margin: 0 auto;
+}
+.logo {
+  display: inline;
+}
+.menu {
+  display: inline;
+}
+.search {
+  display: inline;
+}
+
+.card {
+  display: inline;
+  padding: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.i1 {
+  margin-top: 0;
+}
+.k1 {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.u1 {
+  padding: 0;
+}
+.h1 {
+  margin: 0;
+}
+.footer-title {
+  font-weight: 700;
+}
+.popular-merge {
+  border: 1px solid silver;
+  border-radius: 20px;
+  padding: 13px;
+}
+.iphone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.catalog {
+  background: FFB800;
+  color: FFB800;
+}
+.container-1 {
+  display: flex;
+}
+.container-1 div {
+  padding: 10px;
+  border: 1px solid silver;
+  border-radius: 20px;
+}
+.box1 {
+  flex: 1;
+}
+.box2 {
+  flex: 1;
+}
+.box3 {
+  flex: 1;
+}
+.container-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.samsung {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-4 {
+  display: flex;
+  padding-left: 80px;
+  flex-wrap: wrap-reverse;
+}
+.new {
+  border: 1px solid silver;
+  border-radius: 20px;
+  padding: 13px;
+}
+.recent {
+  border: 1px solid silver;
+  border-radius: 20px;
+  padding: 13px;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #ffb800;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.footer p {
+  color: black;
+  font-size: 12px;
+  margin-left: 10px;
+}
+ul {
+  list-style: none;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.client {
+  padding: 0;
+}
+.help {
+  padding: 0;
+}
+.contact {
+  padding: 0;
+}
+.social {
+  padding: 0;
+}
+.img-social {
+  padding: 0;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-one {
+  margin-right: 20px;
+}
