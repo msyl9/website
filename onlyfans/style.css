@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.bg_noborder {
+  border: 0;
+}
+.login {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.footer_link {
+  padding-top: 35px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid #E2E5E8;
+}
+.one-st {
+  display: flex;
+  flex-direction: column;
+}
+.login-content {
+  height: 75vh;
+  display: flex;
+  justify-content: space-evenly;
+  
+background: linear-gradient(
+  90deg
+  ,#00aff0 50%,transparent 50.01%);;
+}
+.autor {
+  margin-bottom: 9px;
+  margin-top: 0;
+}
+.login-reg {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.twitter {
+  background-color: #1DA1F2 ;
+  color: white;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 13px;
+  padding-right: 16px;
+  border-radius: 25px;
+  margin-bottom: 16px;
+  border: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+.google{
+  display: inline-block;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 13px;
+  padding-right: 16px;
+  border-radius: 25px;
+  margin-bottom: 16px;
+  border: 0;
+  background-color: #4284F3;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.log{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 13px;
+  padding-right: 16px;
+  border-radius: 25px;
+  margin-bottom: 16px;
+  border: 0;
+  background-color: #00aff0 ;
+  color:#E2E5E8 ;
+
+}
+.but{
+  display: flex;
+  flex-direction: column;
+}
+.email{
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  border: 1px solid #C4CAD1;
+  
+}
+.text{
+  color: white;
+  font-size: 200%;
+  margin-top: 0;
+  margin-bottom:30px ;
+  font-weight: 90;
+
+}
+.two-st{
+  display: flex;
+  flex-direction: column;
+}
+.bor{
+  margin-bottom: 18px;
+  color: #9196A3;
+  text-decoration: none;
+}
+.pol{
+  color: #00AFF0;
+  text-decoration: none;
+}
+.poll{
+padding-left: 18px;
+  color: #00AFF0;
+  text-decoration: none;
+}
+.border{
+  margin-top:  80px; ;
+}
+.twitter_logo{
+
+}
