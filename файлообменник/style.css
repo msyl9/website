@@ -1,0 +1,40 @@
+
+header{
+    background-color: #3399DB;
+    display: flex;
+    justify-content: space-evenly;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-links{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+.container{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dowload{
+    background-color:#3399DB;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding-top: 8px; 
+    padding-bottom: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
