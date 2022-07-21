@@ -1,0 +1,155 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+footer{
+display: flex;
+}
+
+.container{
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text{
+    display: flex;
+    margin-left: 12px;
+    justify-content: center;
+}
+
+.nav-header{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    display: flex;
+    margin-left: 25px;
+    text-decoration: none;
+    color: #8F90A0;
+}
+
+.buttons-header{
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    padding: 18px;
+}
+
+main{
+    display: flex;
+    background-image: url(../Images/Registration-images/main-back.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 100%;
+    align-items: center;
+}
+
+.login-col{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    border: #E0E0E0 solid 1px;
+    height: 358px;
+    width: 380px;
+    align-items: center;
+}
+
+.buttons-login-col{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-login-col{
+    display: flex;
+    flex-direction: column;
+}
+.link-footer{
+    text-decoration: none;
+    color: #8F90A0;
+    margin-top: 28px;
+}
+.button-email-footer-style{
+    border: 1px solid #C7C7CF;
+    color: 1F2041;
+}
+.button-email-style{
+    padding-left:15px ;
+    border-radius: 4px; 
+    width: 94%;
+    border: 1px solid #C7C7CF;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.button-password-style{
+    padding-left: 15px;
+    border-radius: 4px;
+    width: 94%;
+    border: 1px solid #C7C7CF;
+    margin-top: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.text-footer{
+    color: #1F2041;
+}
+.logo-footer{
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.text-footer-list{
+    display: flex   ;
+}
+.text-footer-subs{
+    text-decoration: none;
+    color: #1F2041;
+}
+.login-text{
+    font: family 700px;
+}
+.button-voti{
+    margin-top: 20px;
+}
+.text_create-voiti{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-email{
+    width: 100%;
+}
+.button-password{
+    width: 100%;
+}
+.not-acc{
+    text-decoration: none;
+    color: black;
+}
+.logo-img-text{
+    display: flex;
+    align-items: center;
+}
