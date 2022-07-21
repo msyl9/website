@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+
+body {
+  /* выравнивание по центру + отступы по краям страницы */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  /* меняет поведение элементов в блоке */
+  display: flex;
+  /* выравнивание по центру */
+  align-items: center;
+  /* свойство для настройки отступов между элементами */
+  justify-content: space-evenly;
+  /* внутренние отступы */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.link {
+  margin-right: 10px;
+}
+
+.promo-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.promo {
+  width: 800px;
+  height: auto;
+}
+
+.card-image {
+  width: 120px;
+  height: 120px;
+}
+
+.card-promo {
+  display: flex;
+  /* смена направления элементов в блоке */
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  width: 200px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-pic {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.star {
+  width: 25px;
+  height: 25px;
+}
+
+.goods {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
