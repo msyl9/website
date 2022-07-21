@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <select name="How many people">
+      <option value="none">choose</option>
+      <option value="adult">adult</option>
+      <option value="child">child</option>
+    </select>
+    <select name="How many people" id="select">
+      <option class="option" value="none">choose</option>
+      <option class="option" value="adult">adult</option>
+      <option class="option" value="child">child</option>
+    </select>
+    <details>
+      <summary>
+        <p class="title">2 спальни, 2 кровати...</p>
+        <img src="./expand_more.svg" alt="" class="arrow" />
+      </summary>
+      <div class="content">
+        <div class="option">
+          <p>Спальни</p>
+          <div class="wrapper">
+            <button>-</button>
+            <p>2</p>
+            <button class="lastbtn">+</button>
+          </div>
+        </div>
+        <div class="option">
+          <p>Кровати</p>
+          <div class="wrapper">
+            <button>-</button>
+            <p>1</p>
+            <button class="lastbtn">+</button>
+          </div>
+        </div>
+        <div class="option">
+          <p>Ванные комнаты</p>
+          <div class="wrapper">
+            <button>-</button>
+            <p>0</p>
+            <button class="lastbtn">+</button>
+          </div>
+        </div>
+      </div>
+    </details>
+    <div class="slider">
+      <div class="slider-wrapper">
+        <div draggable="true" class="point" id="left"></div>
+        <div class="bar"></div>
+        <div draggable="true" class="point" id="right"></div>
+      </div>
+    </div>
+    <div class="toggle">
+      <input type="checkbox" class="check" />
+      <span class="toggler"></span>
+    </div>
+    <input type="date" class="calendar" />
+  </body>
+</html>
